@@ -1,5 +1,4 @@
 html,body{
-    margin-top: 20px;
     min-width: 300px;
     background-color: white;
     font-family: sans-serif;
@@ -11,14 +10,12 @@ html,body{
     top:15px;
 }
 #navbar{
-   
     position: fixed;
     min-width: 260px;
     display: block;
     border-right: solid;
     height: 100vh;
     margin-left: 10px;
-    margin-top: 0px;
 }
 .hero{
     border-bottom: 1px solid black;
@@ -55,3 +52,21 @@ margin-left: 320px;
 .main-section{
     line-height: 40px;
 }
+@media only screen and (max-width: 480px)  {
+    #navbar{
+        min-width: 200px;
+    }
+    header{
+        font-size: 18px;
+        color: brown;
+    }
+    body{
+        background-color: bisque;
+    }
+}
+
+
+
+
+
+
